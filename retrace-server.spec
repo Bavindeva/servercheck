@@ -85,6 +85,7 @@ Requires(post): /usr/bin/systemctl
 Recommends: httpd
 Recommends: logrotate
 Recommends: podman
+Recommends: python3-prometheus_client
 Recommends: rpm
 
 Obsoletes: abrt-retrace-server < 2.0.3
